@@ -5,11 +5,11 @@ return array(
 
   // Important! This will put Phabricator into setup mode to help you
   // configure things.
-  'phabricator.setup' => false,
+  'phabricator.setup' => true,
 
   // This will be the base domain for your install, and must be configured.
   // Use "https://" if you have SSL. See below for some notes.
-  'phabricator.base-uri' => 'https://phabricator2-codeblock.rhcloud.com/',
+  'phabricator.base-uri' => 'http://phabricator-asuite3.rhcloud.com/',
 
   // Connection information for MySQL.
   'mysql.host' => getenv('OPENSHIFT_MYSQL_DB_HOST'),
@@ -17,8 +17,8 @@ return array(
   'mysql.pass' => getenv('OPENSHIFT_MYSQL_DB_PASSWORD'),
 
   // Basic email domain configuration.
-  'metamta.default-address' => 'admin@phabricator2-codeblock.rhcloud.com',
-  'metamta.domain'          => 'phabricator2-codeblock.rhcloud.com',
+  'metamta.default-address' => 'admin@ace.gov.rudolfschool.com',
+  'metamta.domain'          => 'phabricator-asuite3.rhcloud.com',
 
   'pygments.enabled' => true,
 
